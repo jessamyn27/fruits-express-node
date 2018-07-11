@@ -100,7 +100,3 @@ router.delete('/:index', (req, res) => {
 
 
 module.exports = router;
-
-
-
-module.exports = router;
