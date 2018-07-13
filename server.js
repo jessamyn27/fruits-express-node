@@ -6,6 +6,9 @@ const methodOverride = require('method-override');
 // a representation of our data
 // The model should capitalized
 
+// require our db
+require('./db/db');
+
 // initialized some middleware
 // bodyParser allows us to read the
 // contents of a form, or the body of a request

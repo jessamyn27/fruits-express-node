@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title></title>
-        <link rel="stylesheet" href="/css/app.css">
+        <%# <link rel="stylesheet" href="/css/app.css"> %>
     </head>
     <body>
         <h1>Fruits index page</h1>
@@ -19,7 +19,8 @@
                     <form method="POST" action="/fruits/<%=i%>?_method=DELETE">
                       <input type="submit" value="DELETE">
                     </form>
-                    <a href="/fruits/<%=i%>/edit">Edit</a>
+
+                    <a href="/fruits/<%=fruits[i].id%>/edit">Edit</a>
                </li>
             <% } %>
         </ul>
